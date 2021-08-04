@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+body{
+    background-image: url('thumb.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: #ccc;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+header{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 30px;
+}
+
+#image{
+    padding-top: 30px;
+}
+.img-tribute{
+    text-align: center;
+    
+}
+
+.img-tribute img{
+    box-shadow: 5px 4px 2px grey;
+}
+
+#description{
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.desc p{
+    font-size: 13px;
+    text-align: justify;
+    color: grey;
+}
+
+#premios{
+    margin-top: 30px;
+}
+
+#premios h2{
+    text-align: center;
+}
+
+#premios .honras{
+  
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.honras li{
+    list-style: none;
+}
+
+.honras ul span {
+    font-weight: bold;
+}
+
+#wiki{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid grey;
+}
+
+#wiki a{
+    text-decoration: none;
+    color: tomato;
+}
+
+footer{
+    margin-top: 10px;
+    border-top: 1px solid grey;
+    padding: 20px;
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    padding: 10px;
+    text-decoration: underline;
+    background-color: white;
+}
