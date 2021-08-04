@@ -20,6 +20,7 @@ body{
     background-color: #ccc;
     margin-top: 40px;
     margin-bottom: 40px;
+    box-shadow: 5px 3px 1px grey;
 }
 
 header{
